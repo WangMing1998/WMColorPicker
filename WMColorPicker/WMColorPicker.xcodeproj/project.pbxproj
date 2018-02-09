@@ -15,9 +15,9 @@
 		8203576F2025707E008BA7F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8203576E2025707E008BA7F3 /* main.m */; };
 		8203577920257081008BA7F3 /* WMColorPickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8203577820257081008BA7F3 /* WMColorPickerTests.m */; };
 		8203578420257082008BA7F3 /* WMColorPickerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8203578320257082008BA7F3 /* WMColorPickerUITests.m */; };
-		82035796202570C1008BA7F3 /* color_picker_selector.png in Resources */ = {isa = PBXBuildFile; fileRef = 82035792202570C1008BA7F3 /* color_picker_selector.png */; };
-		82035797202570C1008BA7F3 /* colorView.png in Resources */ = {isa = PBXBuildFile; fileRef = 82035793202570C1008BA7F3 /* colorView.png */; };
-		82035798202570C1008BA7F3 /* WMColorPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 82035795202570C1008BA7F3 /* WMColorPicker.m */; };
+		82AC031A202D61D20051B4C5 /* color_picker_selector.png in Resources */ = {isa = PBXBuildFile; fileRef = 82AC0316202D61D00051B4C5 /* color_picker_selector.png */; };
+		82AC031B202D61D20051B4C5 /* colorView.png in Resources */ = {isa = PBXBuildFile; fileRef = 82AC0317202D61D00051B4C5 /* colorView.png */; };
+		82AC031C202D61D20051B4C5 /* WMColorPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 82AC0319202D61D00051B4C5 /* WMColorPicker.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,10 +54,10 @@
 		8203577F20257082008BA7F3 /* WMColorPickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WMColorPickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8203578320257082008BA7F3 /* WMColorPickerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WMColorPickerUITests.m; sourceTree = "<group>"; };
 		8203578520257082008BA7F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		82035792202570C1008BA7F3 /* color_picker_selector.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = color_picker_selector.png; sourceTree = "<group>"; };
-		82035793202570C1008BA7F3 /* colorView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colorView.png; sourceTree = "<group>"; };
-		82035794202570C1008BA7F3 /* WMColorPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMColorPicker.h; sourceTree = "<group>"; };
-		82035795202570C1008BA7F3 /* WMColorPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMColorPicker.m; sourceTree = "<group>"; };
+		82AC0316202D61D00051B4C5 /* color_picker_selector.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = color_picker_selector.png; sourceTree = "<group>"; };
+		82AC0317202D61D00051B4C5 /* colorView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colorView.png; sourceTree = "<group>"; };
+		82AC0318202D61D00051B4C5 /* WMColorPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMColorPicker.h; sourceTree = "<group>"; };
+		82AC0319202D61D00051B4C5 /* WMColorPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMColorPicker.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,7 +108,7 @@
 		8203575E2025707C008BA7F3 /* WMColorPicker */ = {
 			isa = PBXGroup;
 			children = (
-				82035791202570C1008BA7F3 /* ColorPicker */,
+				82AC0315202D61D00051B4C5 /* ColorPicker */,
 				8203575F2025707D008BA7F3 /* AppDelegate.h */,
 				820357602025707D008BA7F3 /* AppDelegate.m */,
 				820357622025707D008BA7F3 /* ViewController.h */,
@@ -140,16 +140,16 @@
 			path = WMColorPickerUITests;
 			sourceTree = "<group>";
 		};
-		82035791202570C1008BA7F3 /* ColorPicker */ = {
+		82AC0315202D61D00051B4C5 /* ColorPicker */ = {
 			isa = PBXGroup;
 			children = (
-				82035792202570C1008BA7F3 /* color_picker_selector.png */,
-				82035793202570C1008BA7F3 /* colorView.png */,
-				82035794202570C1008BA7F3 /* WMColorPicker.h */,
-				82035795202570C1008BA7F3 /* WMColorPicker.m */,
+				82AC0316202D61D00051B4C5 /* color_picker_selector.png */,
+				82AC0317202D61D00051B4C5 /* colorView.png */,
+				82AC0318202D61D00051B4C5 /* WMColorPicker.h */,
+				82AC0319202D61D00051B4C5 /* WMColorPicker.m */,
 			);
 			path = ColorPicker;
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -257,9 +257,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				82035796202570C1008BA7F3 /* color_picker_selector.png in Resources */,
+				82AC031A202D61D20051B4C5 /* color_picker_selector.png in Resources */,
 				8203576C2025707E008BA7F3 /* LaunchScreen.storyboard in Resources */,
-				82035797202570C1008BA7F3 /* colorView.png in Resources */,
+				82AC031B202D61D20051B4C5 /* colorView.png in Resources */,
 				820357692025707D008BA7F3 /* Assets.xcassets in Resources */,
 				820357672025707D008BA7F3 /* Main.storyboard in Resources */,
 			);
@@ -289,7 +289,7 @@
 				820357642025707D008BA7F3 /* ViewController.m in Sources */,
 				8203576F2025707E008BA7F3 /* main.m in Sources */,
 				820357612025707D008BA7F3 /* AppDelegate.m in Sources */,
-				82035798202570C1008BA7F3 /* WMColorPicker.m in Sources */,
+				82AC031C202D61D20051B4C5 /* WMColorPicker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
